@@ -20,6 +20,7 @@ export const FormTaskManager = () => {
             <button className="form__button-submit "type="submit">Agregar</button>
             
             </form>
+    
         </div>
     )
 }
