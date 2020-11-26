@@ -1,0 +1,13 @@
+.home__container{
+    margin: 100px auto;
+    border: 1px solid #010311;
+    width: 700px;
+    height: 300px; 
+    background-color: $primary
+}
+.home__task-manager {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}

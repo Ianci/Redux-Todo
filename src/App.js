@@ -1,11 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { AppRoutes } from "./routes/AppRoutes";
+import store from "./store/store";
+import { Provider } from "react-redux";
 
 function App() {
   return (
-    <div className="App">
-     <p>Emmet</p>
-    </div>
+    <Provider store={store}>
+
+     <AppRoutes />
+    
+    </Provider>
   );
 }
 
